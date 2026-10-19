@@ -1,0 +1,520 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #f4f2ee;
+    color: black;
+    padding: 20px;
+}
+
+.page {
+    background-color: white;
+    border: 3px solid black;
+}
+
+
+header {
+    display: flex;
+    border: 3px solid black;
+    box-shadow: 10px 10px 0 black;
+}
+
+.logo {
+    background-color: rgb(162, 255, 0);
+    padding: 14px 20px;
+    border: 3px solid black;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    color: black;
+    font-size: 1.2em;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.nav {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    font-size: 1.2em;
+    color: black;
+    text-decoration: none;
+    padding: 14px 20px;
+}
+
+.nav a {
+    margin: 0 15px;
+    font-size: 1.2em;
+    color: black;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    color: rgb(162, 0, 255);
+    text-decoration: underline;
+}
+
+.contact {
+    background-color: rgb(162, 0, 255);
+    color: white;
+    padding: 14px 20px;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+.name {
+    display: inline;
+    background-color: rgb(162, 0, 255);
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 3px 5px;
+}
+
+.major {
+    display: inline;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(162, 255, 0);
+}
+
+.info {
+    display: inline;
+    background-color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.view {
+    display: inline-block;
+    margin-bottom: 10px;
+    background-color: rgb(162, 255, 0);
+    text-decoration: none;
+    color: black;
+    padding: 14px 20px;
+    border: 3px solid black;
+    font-weight: 700;
+    box-shadow: 4px 4px 0 black;
+}
+
+.view:hover {
+    color: white;
+}
+
+.touch {
+    display: inline-block;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: black;
+    padding: 14px 20px;
+    border: 3px solid black;
+    font-weight: 700;
+    box-shadow: 4px 4px 0 black;
+    background-color: white;
+}
+
+.touch:hover {
+    color: rgb(162, 0, 255);
+}
+
+.contactt {
+    font-family: monospace;
+    font-weight: 700;
+    font-size: 1.2em;
+}
+
+.contactt p {
+    display: inline;
+    background-color: white;
+}
+
+.icons a {
+    background-color: white;
+    display: inline-block;
+    text-decoration: none;
+    margin-right: 15px;
+    margin-left: 10px;
+    color: black;
+    border: 3px solid black;
+    margin-bottom: 10px;
+    box-shadow: 4px 4px 0 black;
+    padding: 14px 20px;
+}
+
+.icons a:hover {
+    background-color: rgb(162, 255, 0);
+}
+
+.hero {
+    display: flex;
+    box-shadow: 10px 0 black;
+}
+
+.left {
+    width: 50%;
+    padding: 40px;
+    background-image: url("dino.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.top {
+    flex: 1 1 auto;
+}
+
+.right {
+    width: 50%;
+    background-color: #ff7a9c;
+}
+
+.mee {
+    width: 500px;
+    max-width: 75%;
+    margin-left: 100px;
+    background-position: center;
+    border: 10px solid rgb(162, 255, 0);
+}
+
+.code-box {
+    background-color: rgb(162, 0, 255);
+    display: inline-block;
+    position: relative;
+    margin-left: 40%;
+    margin-top: 2px;
+    color: white;
+    box-shadow: 4px 4px 0 black;
+    font-weight: 700;
+    font-size: 1.2em;
+}
+
+
+.aboutt {
+    font-family: 'Courier New', Courier, monospace;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.block {
+    border: 3px solid black;
+    box-shadow: 10px 0 black;
+}
+
+
+.skills {
+    border: 3px solid black;
+    box-shadow: 10px 0 black;
+    display: flex;
+}
+
+.skills-label {
+    background-color: rgb(162, 0, 255);
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 24px;
+    min-width: 180px;
+}
+
+.skills-list {
+    flex-grow: 1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    margin: 0;
+    list-style-type: none;
+    background-color: #f4f2ee;
+}
+
+.skills-list li {
+    border: 3px solid black;
+    box-shadow: 3px 3px 0 black;
+    background-color: white;
+    padding: 8px 16px;
+    margin: 7px;
+}
+
+.split {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    border-bottom: 3px solid black;
+    box-shadow: 10px 0 black;
+}
+
+.projects {
+    padding: 32px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+}
+
+.card {
+    box-shadow: 3px 3px 0 black;
+    border: 3px solid black;
+    padding: 14px;
+    background-color: white;
+    transition: transform .2s;
+}
+
+.card:hover {
+    transform: translatey(-5px);
+}
+
+.card-img {
+    height: 130px;
+    margin-bottom: 12px;
+}
+
+.card-img.pink {
+      background-image: url("watermelon.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.card-img.lime {
+    background-image: url("cat.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.card a {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    border: 3px solid black;
+    box-shadow: 4px 4px 0 black;
+    padding: 10px 16px;
+    margin-top: 12px;
+    font-weight: 700;
+}
+
+.chips {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.chips span {
+    border: 3px solid black;
+    box-shadow: 3px 3px 0 black;
+    background-color: white;
+    padding: 8px 16px;
+    margin: 0 6px 6px 0;
+}
+
+.certs {
+    background-color: rgb(162, 255, 0);
+    padding: 32px 24px;
+}
+
+.cert {
+    display: block;
+    background-color: white;
+    padding: 34px 10px;
+    text-align: center;
+    border: 3px solid black;
+    box-shadow: 4px 4px 0 black;
+    margin-bottom: 18px;
+}
+
+
+.split.experience {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    box-shadow: 10px 0 black;
+}
+
+.exp-title {
+    background-color: #ff7a9c;
+    display: flex;
+    padding: 24px;
+    font-weight: 700;
+    font-size: 1.5em;
+    align-items: center;
+}
+
+.cta {
+    background-color: rgb(162, 0, 255);
+    color: white;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cta a {
+    display: inline;
+    color: black;
+    border: 3px solid black;
+    box-shadow: 3px 3px 0 black;
+    background-color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.exp-list {
+    padding: 40px;
+    display: grid;
+    grid-gap: 30px;
+}
+
+.job h3 {
+    margin: 0 0 8px;
+}
+
+.job small {
+    display: block;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 8px;
+}
+
+.job p {
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.job {
+    padding-bottom: 30px;
+    border-bottom: 2px dashed black;
+}
+
+.job:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+
+.contact-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px;
+}
+
+.contact-grid p {
+    margin-bottom: 10px;
+}
+
+.contact-grid a {
+    text-decoration: none;
+    color: black;
+}
+
+.contact-grid a:hover {
+    color: rgb(162, 0, 255);
+}
+
+form {
+    display: grid;
+    grid-gap: 8px;
+}
+
+label {
+    font-weight: 700;
+}
+
+input, textarea {
+    padding: 10px;
+    border: 3px solid black;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+input:hover, textarea:hover {
+    background-color: rgb(162, 255, 0);
+}
+
+button {
+    background-color: rgb(162, 255, 0);
+    border: 3px solid black;
+    box-shadow: 4px 4px 0 black;
+    padding: 12px;
+    font-weight: 700;
+}
+
+
+.footer {
+    display: flex;
+    align-items: center;
+    box-shadow: 10px 0 black;
+}
+
+.footer p {
+    flex-grow: 1;
+    font-weight: 700;
+    text-align: center;
+    padding: 10px;
+}
+
+.footer .icons {
+    padding: 10px 16px;
+}
+
+
+@media only screen and (max-width: 1000px) {
+    body {
+        padding: 10px;
+    }
+
+    header {
+        flex-direction: column;
+    }
+
+    .nav {
+        flex-wrap: wrap;
+    }
+
+    .contact {
+        justify-content: center;
+    }
+
+    .hero {
+        flex-direction: column;
+    }
+
+    .left, .right {
+        width: auto;
+    }
+
+    .left {
+        padding: 24px;
+    }
+
+    .major {
+        font-size: 36px;
+    }
+
+    .mee {
+        box-sizing: border-box;
+        width: 100%;
+        max-width: 100%;
+        margin-left: 0;
+    }
+
+    .code-box {
+        margin-left: 0;
+    }
+
+    .aboutt,
+    .split,
+    .split.experience,
+    .cards,
+    .contact-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .skills {
+        flex-direction: column;
+    }
+
+    .footer {
+        flex-direction: column;
+    }
+}
